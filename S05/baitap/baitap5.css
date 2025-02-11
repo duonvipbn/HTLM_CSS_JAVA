@@ -1,0 +1,15 @@
+.header {
+    color: steelblue;
+}
+
+.div1 {
+    border-left: 10px solid rgb(204, 185, 7);
+    background-color: lightgoldenrodyellow;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+p {
+    margin: 0;
+}

@@ -1,0 +1,49 @@
+.table {
+    border-collapse: collapse;
+    border-color: rgb(209, 209, 209);
+    width: 100%;
+}
+
+.header {
+    background-color: #337eff;
+    color: white;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    text-align: center;
+}
+
+.grey {
+    background-color: #f2f2f2;
+}
+
+.viewbut {
+    background-color: #4CAF50;
+    color: white;
+    padding: 7px;
+    border: 0px;
+}
+
+.upBut {
+    background-color: #edcd1c;
+    color: rgb(0, 0, 0);
+    padding: 7px;
+    border: 0px;
+}
+
+.delBut {
+    background-color: #cc1f1f;
+    color: white;
+    padding: 7px;
+    border: 0px;
+}
+
+.name {
+    font-size: 25px;
+    padding: 10px;
+}

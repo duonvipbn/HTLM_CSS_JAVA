@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./baitap9.css">
+</head>
+
+<body>
+    <table border="0" cellpadding="0" cellspacing="10">
+        <thead>
+            <h2>Billing address</h2>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="3"><b>First name</b></td>
+                <td colspan="3"><b>Last name</b></td>
+            </tr>
+            <tr>
+                <td colspan="3"><input type="text" class="name"></td>
+                <td colspan="3"><input type="text" class="name"></td>
+            </tr>
+            <tr>
+                <td colspan="3"><br><b>Username</b></td>
+            </tr>
+            <tr>
+                <td colspan="6"><input type="text" placeholder="Username" class="username"></td>
+            </tr>
+
+            <tr>
+                <td colspan="3"><br><b>Email </b><span class="invisible">(Optional)</span></td>
+            </tr>
+            <tr>
+                <td colspan="6"><input type="text" placeholder="you@example.com" class="username"></td>
+            </tr>
+
+            <tr>
+                <td colspan="3"><br><b>Address</b></td>
+            </tr>
+            <tr>
+                <td colspan="6"><input type="text" placeholder="1234 Main St" class="username"></td>
+            </tr>
+
+            <tr>
+                <td colspan="3"><br><b>Address 2 </b><span class="invisible">(Optional)</span></td>
+            </tr>
+            <tr>
+                <td colspan="6"><input type="text" placeholder="Apartment or suite" class="username"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><br><b>Country</b></td>
+                <td colspan="2"><br><b>State</b></td>
+                <td colspan="2"><br><b>Zip</b></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <select name="" id="" class="country">
+                        <option value="">Choose...</option>
+                    </select>
+                </td>
+                <td colspan="2">
+                    <select name="" id="" class="state">
+                        <option value="">Choose...</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="number" class="zip">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6">
+                    <hr>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6"><input type="checkbox"> Shipping address is the same as my billing address</td>
+            </tr>
+            <tr>
+                <td colspan="6"><input type="checkbox"> Save this information for next time</td>
+            </tr>
+            <tr>
+                <td colspan="6">
+                    <hr>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6">
+                    <h2>payment</h2>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6">
+                    <input type="radio" name="payment" id="" checked> Credit card
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6">
+                    <input type="radio" name="payment" id=""> Debit card
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6">
+                    <input type="radio" name="payment" id=""> Paypal
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <span><b>Name on card</b></span>
+                </td>
+                <td colspan="3">
+                    <span><b>Credit card number</b></span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <input type="text" class="name">
+                </td>
+                <td colspan="3">
+                    <input type="text" class="name">
+                </td>
+            </tr>
+            <tr>
+                <td class="invisible" colspan="6">Full name as displayed on card</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <br><span><b>Expiration</b></span>
+                </td>
+                <td colspan="2">
+                    <br><span><b>CVV</b></span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="text" class="smallButton">
+                </td>
+                <td colspan="2">
+                    <input type="text" class="smallButton">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6">
+                    <hr>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6">
+                    <button>Continue to checkout</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

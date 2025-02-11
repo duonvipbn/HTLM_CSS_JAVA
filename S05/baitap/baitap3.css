@@ -1,0 +1,28 @@
+.table {
+    border-collapse: collapse;
+    border-color: rgb(209, 209, 209);
+    width: 100%;
+}
+
+.header {
+    background-color: #337eff;
+    color: white;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    text-align: center;
+}
+
+.grey {
+    background-color: #f2f2f2;
+}
+
+.name {
+    font-size: 25px;
+    padding: 10px;
+}

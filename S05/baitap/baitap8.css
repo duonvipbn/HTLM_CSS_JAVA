@@ -1,0 +1,23 @@
+.dashed-line {
+    border-top: 2px dashed #666;
+}
+
+img {
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.time {
+    opacity: 0.5;
+}
+
+.push {
+    padding-bottom: 40px;
+}
+
+.div1 {
+    border-left: 3px solid rgb(212, 211, 211);
+    background-color: rgb(255, 255, 255);
+    padding-left: 7px;
+}

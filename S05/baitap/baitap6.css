@@ -1,0 +1,37 @@
+.text {
+    color: red;
+    background-color: #f2f2f2;
+}
+
+.solid {
+    border-style: solid;
+    border-color: forestgreen;
+    border-width: 5px;
+    text-align: center;
+    font-weight: 700;
+    padding: 15px;
+
+}
+
+p {
+    margin: 0;
+}
+
+.div1 {
+    border-left: 5px solid forestgreen;
+    background-color: rgb(255, 255, 255);
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+.div2 {
+    background-color: rgb(223, 222, 222);
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    border: 0px;
+}
