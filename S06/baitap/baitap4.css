@@ -1,0 +1,48 @@
+.nameBackground {
+    height: 110px;
+    width: 100%;
+    background-color: rgb(35, 178, 39);
+    text-align: center;
+    color: white;
+}
+
+.endBackground {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(47, 47, 47);
+    text-align: center;
+    color: white;
+}
+
+.nameButton {
+    background-color: rgb(35, 178, 39);
+    border: 0px;
+}
+
+.removeMargin {
+    margin: 0;
+}
+
+.backgrounCategory {
+    margin: 20px;
+    border: 1px solid rgb(193, 193, 193);
+    background-color: rgb(233, 233, 233);
+    width: 300px;
+    height: 600px;
+}
+
+.baiViet1 {
+    border-bottom: 1px solid rgb(142, 142, 142);
+}
+
+.opa {
+    opacity: 0.8;
+}
+
+.fixWid {
+    width: 100%;
+}
+
+.fixP {
+    line-height: 60px;
+}

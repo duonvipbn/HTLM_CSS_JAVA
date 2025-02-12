@@ -1,0 +1,50 @@
+.div1 {
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 430px;
+    margin: 10px;
+    border-radius: 10px;
+    margin-left: 45px;
+    transform: translateY(60px);
+}
+
+.title {
+    margin: 0px;
+}
+
+input {
+    height: 40px;
+    width: 350px;
+    border-radius: 5px;
+    border: 2px solid rgb(193, 193, 193);
+}
+
+.header {
+    text-align: center;
+}
+
+.fixTitle {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.fixText {
+    text-align: center;
+}
+
+button {
+    height: 50px;
+    width: 360px;
+    border-radius: 5px;
+    border: 2px solid rgb(193, 193, 193);
+    background-color: rgb(72, 72, 255);
+    color: white;
+    font-size: 20px;
+}
+
+.div2 {
+    background-color: rgb(235, 235, 235);
+    width: 500px;
+    height: 540px;
+    border-radius: 10px;
+}
