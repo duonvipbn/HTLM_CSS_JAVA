@@ -1,0 +1,32 @@
+.box {
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: inset;
+    text-align: center;
+    margin: 12px;
+}
+
+.box_shadow {
+    background-color: rgb(245, 244, 248);
+    width: 280px;
+    height: 180px;
+    position: relative;
+
+}
+
+.header {
+    position: relative;
+    top: 15px;
+    font-size: 27px;
+    font-weight: bold;
+    color: brown;
+}
+
+.title {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}

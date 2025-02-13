@@ -1,0 +1,37 @@
+.background {
+    width: 600px;
+    height: 700px;
+}
+
+.fix_star_icon {
+    height: 70px;
+    width: 70px;
+}
+
+.Header {
+    position: relative;
+    left: 10px;
+    bottom: 20px;
+    font-weight: bolder;
+    font-size: 40px;
+
+}
+
+.fix_picture {
+    height: 400px;
+    width: 600px;
+}
+
+.header_title {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.owner_name {
+    font-weight: bolder;
+    font-size: 23px;
+}
+
+.title {
+    font-size: 20px;
+}

@@ -1,0 +1,38 @@
+.background {
+    width: 500px;
+    height: 280px;
+    background-color: rgb(234, 234, 234);
+}
+
+.title_header {
+    transform: translateY(20px);
+}
+
+.fix_span {
+    display: inline-block;
+    transform: translateY(-8px);
+}
+
+.accept_button {
+    width: 160px;
+    height: 40px;
+    background-color: rgb(188, 34, 41);
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+}
+
+.cancel_button {
+    width: 160px;
+    height: 40px;
+    background-color: rgb(234, 234, 234);
+    border: 1px solid black;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 10px;
+}
+
+.space {
+    padding-left: 10px;
+}

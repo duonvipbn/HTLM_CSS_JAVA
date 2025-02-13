@@ -1,0 +1,84 @@
+.background {
+    height: 490px;
+    width: 580px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.name {
+    position: relative;
+    left: 20px;
+    top: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.x {
+    position: relative;
+    left: 240px;
+    top: 20px;
+    font-size: 35px;
+    opacity: 0.6;
+}
+
+.recipient_name {
+    position: relative;
+    left: 20px;
+    font-size: 25px;
+}
+
+.message_name {
+    position: relative;
+    left: 20px;
+    font-size: 25px;
+}
+
+.recipient_value {
+    position: relative;
+    left: 20px;
+    top: 10px;
+    height: 40px;
+    width: 520px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(181, 181, 181);
+}
+
+.Message_value {
+    position: relative;
+    left: 20px;
+    top: 10px;
+    height: 80px;
+    width: 520px;
+    border-radius: 10px;
+    border: 1px solid rgb(181, 181, 181);
+}
+
+.close_buttion {
+    position: relative;
+    left: 230px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(108, 117, 125);
+    width: 100px;
+    height: 50px;
+}
+
+.send_message_buttion {
+    position: relative;
+    left: 240px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(13, 110, 253);
+    width: 200px;
+    height: 50px;
+}

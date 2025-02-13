@@ -1,0 +1,168 @@
+body {
+    background-color: rgb(245, 247, 250);
+}
+
+.background {
+    border: 2px solid rgb(207, 206, 206);
+    border-radius: 15px;
+    height: 550px;
+    width: 480px;
+    background-color: white;
+}
+
+.name {
+    position: relative;
+    top: 30px;
+    left: 30px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.action {
+    position: relative;
+    top: 60px;
+    left: 30px;
+    height: 22px;
+    width: 110px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgb(255, 238, 202);
+    color: rgb(194, 71, 19);
+    border: 2px solid rgb(255, 204, 133);
+}
+
+.client {
+    font-weight: bolder;
+    position: relative;
+    font-size: 25px;
+    left: 30px;
+    top: 90px;
+}
+
+.special_title {
+    color: rgb(56, 116, 255);
+}
+
+.opa {
+    opacity: 0.6;
+}
+
+.budget {
+    font-weight: bolder;
+    position: relative;
+    font-size: 25px;
+    left: 30px;
+    top: 100px;
+}
+
+.progress {
+    font-weight: bolder;
+    position: relative;
+    font-size: 25px;
+    left: 30px;
+    top: 140px;
+}
+
+.per {
+    font-weight: bolder;
+    position: relative;
+    font-size: 25px;
+    left: 300px;
+    top: 140px;
+}
+
+.per_bar {
+    position: relative;
+    height: 10px;
+    top: 160px;
+    width: 320px;
+    left: 30px;
+    background-color: rgb(229, 120, 9);
+    border-radius: 10px;
+}
+
+.per_bar_left {
+    position: relative;
+    height: 10px;
+    top: 150px;
+    width: 100px;
+    left: 350px;
+    background-color: rgb(255, 238, 202);
+    border-radius: 10px;
+}
+
+.started_pos {
+    position: relative;
+    left: 30px;
+    top: 180px;
+}
+
+.started {
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.started_val {
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.deadline_pos {
+    position: relative;
+    left: 30px;
+    top: 200px;
+}
+
+.deadline {
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.deadline_val {
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.name_color {
+    color: rgb(49, 55, 73);
+}
+
+.avatar_1 {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    position: relative;
+    left: 30px;
+    top: 230px;
+}
+
+.avatar_2 {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    position: relative;
+    left: 12px;
+    top: 230px;
+}
+
+.end_pos {
+    position: relative;
+    left: 300px;
+    top: 170px;
+
+}
+
+.task_img {
+    font-size: 26px;
+}
+
+.task_num {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.task_name {
+    font-size: 30px;
+}

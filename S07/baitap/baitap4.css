@@ -1,0 +1,38 @@
+.background {
+
+    height: 1000px;
+    width: 500px;
+}
+
+.header {
+    border-left: 7px solid rgb(255, 97, 22);
+    background-color: rgb(255, 255, 255);
+    padding-left: 10px;
+    font-size: 33px;
+    font-weight: bolder;
+}
+
+img {
+    height: 650px;
+    width: 500px;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+br {
+    height: 1px;
+    color: gray;
+}
+
+.title_thumbnail {
+    position: relative;
+    bottom: 350px;
+    font-size: 33px;
+    color: white;
+    font-weight: bolder;
+    padding-left: 50px;
+    padding-right: 30px;
+}

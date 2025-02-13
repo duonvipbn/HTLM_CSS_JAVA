@@ -1,0 +1,79 @@
+.background {
+    width: 500px;
+    height: 750px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+}
+
+.header {
+    width: 500px;
+    height: 100px;
+    background-color: rgb(237, 26, 53);
+    font-size: 35px;
+    border-radius: 15px 15px 0px 0px;
+
+    position: relative;
+}
+
+.header_name {
+    position: relative;
+    top: 30px;
+    color: white;
+    font-weight: bolder;
+}
+
+.fix_icon_giamgia {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    top: 0;
+    right: 0;
+    top: -30px;
+    right: -30px;
+}
+
+.attribute_name {
+    font-size: 28px;
+    opacity: 0.6;
+    font-weight: bolder;
+}
+
+.attribute_value {
+    font-size: 28px;
+    color: rgb(255, 140, 0);
+    font-weight: bolder;
+}
+
+.body {
+    position: absolute;
+    left: 50px;
+    width: 400px;
+    height: 400px;
+}
+
+.dang_ky_button {
+    height: 70px;
+    width: 400px;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(191, 20, 44);
+    border-radius: 30px;
+    border: 0;
+    font-weight: bolder;
+}
+
+.chi_tiet_button {
+    height: 60px;
+    width: 250px;
+    font-size: 30px;
+    color: rgb(191, 20, 44);
+    background-color: white;
+    border-radius: 30px;
+    font-weight: bolder;
+    border: 2px solid rgb(191, 20, 44);
+}
+
+body {
+    background-color: aliceblue;
+}
