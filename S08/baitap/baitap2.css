@@ -1,0 +1,79 @@
+.background {
+    height: 550px;
+    width: 780px;
+    background: linear-gradient(90deg, rgb(59, 58, 96), rgb(83, 73, 99));
+}
+
+.name {
+    position: relative;
+    left: 40px;
+    top: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+
+.name_text {
+    width: 320px;
+    height: 45px;
+    position: relative;
+    left: 40px;
+    top: 65px;
+    border: 3px solid rgb(114, 105, 129);
+    background-color: rgba(80, 65, 94, 0);
+    border-radius: 7px;
+}
+
+.email_text {
+    width: 320px;
+    height: 45px;
+    position: relative;
+    left: 80px;
+    top: 65px;
+    border: 3px solid rgb(114, 105, 129);
+    background-color: rgba(80, 65, 94, 0);
+    border-radius: 7px;
+}
+
+.email {
+    position: relative;
+    left: 80px;
+    top: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+
+.message {
+    position: relative;
+    left: 40px;
+    top: 110px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+
+.message_textarea {
+    width: 690px;
+    height: 170px;
+    position: relative;
+    left: 40px;
+    top: 120px;
+    border: 3px solid rgb(114, 105, 129);
+    background-color: rgba(80, 65, 94, 0);
+    border-radius: 7px;
+}
+
+.send {
+    width: 210px;
+    height: 60px;
+    position: relative;
+    left: 40px;
+    top: 150px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    font-size: 13px;
+    font-weight: bolder;
+    letter-spacing: 4px;
+}

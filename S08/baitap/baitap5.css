@@ -1,0 +1,99 @@
+.background {
+    height: 450px;
+    width: 1000px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: 1px solid rgb(236, 235, 235);
+}
+
+.name {
+    position: relative;
+    font-size: 40px;
+    top: 25px;
+    color: black;
+    opacity: 0.6;
+}
+
+.opa {
+    opacity: 0.5;
+}
+
+.title1 {
+    position: relative;
+    font-size: 30px;
+    top: 60px;
+    color: black;
+}
+
+.title2 {
+    position: relative;
+    font-size: 30px;
+    top: 70px;
+    color: black;
+}
+
+body {
+    background-color: rgb(247, 247, 247);
+}
+
+.border {
+    width: 100px;
+    height: 50px;
+    border-bottom: 3px solid rgb(247, 247, 247);
+    position: relative;
+    top: 70px;
+    left: 450px;
+    font-size: 50px;
+}
+
+.button_block {
+    position: relative;
+    top: 120px;
+}
+
+.download_button {
+    position: relative;
+    right: 10px;
+    height: 55px;
+    width: 170px;
+    border: 0px;
+    font-weight: bolder;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgb(70, 150, 229);
+}
+
+.learn_more_button {
+    position: relative;
+    left: 10px;
+    height: 55px;
+    width: 170px;
+    border: 3px solid rgb(210, 209, 209);
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgba(70, 150, 229, 0);
+}
+
+.icon_block {
+    position: relative;
+    top: 330px;
+    font-size: 50px;
+    letter-spacing: 15px;
+    opacity: 0.4;
+}
+
+.title_dotted {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+
+.Credits {
+    position: relative;
+    top: 380px;
+    font-size: 20px;
+    opacity: 0.4;
+}
