@@ -1,0 +1,35 @@
+.contianer {
+    width: 600px;
+    height: 110px;
+    border: 2px solid black;
+}
+
+.contianer .bar1 {
+    display: flex;
+    margin: 3px;
+    gap: 5px;
+}
+
+.bar1 .item {
+    background-color: rgb(52, 152, 219);
+    width: 100px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.item1 {
+    flex: 1;
+}
+
+.item2 {
+
+    flex: 2.03;
+}
+
+.fix {
+    position: relative;
+    font-size: 10px;
+    top: 15px;
+}

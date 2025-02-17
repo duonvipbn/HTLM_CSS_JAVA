@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    text-align: center;
+}
+
+.web_name {
+    background-color: rgb(51, 51, 51);
+    height: 60px;
+}
+
+.web_name .text {
+    font-weight: bolder;
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    color: white;
+}
+
+.link_bar {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(51, 51, 51);
+    height: 40px;
+    font-size: 10px;
+    position: relative;
+    bottom: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.page1 {
+    position: relative;
+    bottom: 20px;
+    background-color: rgb(244, 244, 244);
+    height: 150px;
+}
+
+.page1 .name {
+    position: relative;
+    top: 35px;
+}
+
+.page1 .title {
+    font-size: 10px;
+    opacity: 0.5;
+    position: relative;
+    top: 50px;
+}
+
+.page1 .button {
+    border-radius: 5px;
+    width: 90px;
+    height: 25px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    font-size: 10px;
+    position: relative;
+    top: 65px;
+}
+
+.page2 {
+    position: relative;
+    bottom: 100px;
+}
+
+.page2 .name2 {
+    position: relative;
+    top: 140px;
+}
+
+.page2 .project_list {
+    height: 40px;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 190px;
+}
+
+.project_list .project {
+    background-color: rgb(204, 204, 204);
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.project .fix {
+    position: relative;
+    top: 40px;
+    font-size: 10px;
+    opacity: 0.5;
+}
+
+.project .name {
+    position: relative;
+    top: 90px;
+    font-size: 13px;
+    opacity: 0.5;
+}
+
+.page3 {
+    position: relative;
+    top: 200px;
+    background-color: rgb(244, 244, 244);
+    height: 140px;
+}
+
+.page3 .name {
+    position: relative;
+    top: 50px;
+}
+
+.page3 .title {
+    font-size: 10px;
+    opacity: 0.5;
+    position: relative;
+    top: 70px;
+}
+
+.footer {
+    position: relative;
+    top: 200px;
+    background-color: rgb(51, 51, 51);
+    height: 60px;
+}
+
+.end {
+    text-align: center;
+    color: rgb(73, 74, 75);
+    position: relative;
+    font-size: 15px;
+    top: 20px;
+}

@@ -1,0 +1,49 @@
+.container {
+    width: 600px;
+    height: 200px;
+    background-color: rgba(55, 132, 199, 0);
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+.bar1 {
+    display: flex;
+    gap: 7px;
+
+}
+
+.big {
+    flex: 1;
+    width: 40%;
+    height: 100px;
+    background-color: rgb(44, 62, 80);
+}
+
+.chop_big {
+    flex: 1;
+    display: flex;
+    width: 40%;
+    height: 100px;
+    background-color: rgba(20, 137, 255, 0);
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.small {
+    width: 49%;
+    height: 48px;
+    background-color: rgb(44, 62, 80);
+}
+
+.fix {
+    position: relative;
+    top: 15px;
+}
+
+.bar2 {
+    display: flex;
+    gap: 7px;
+    position: relative;
+    top: 7px;
+}

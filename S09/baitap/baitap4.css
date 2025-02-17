@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    color: #fff;
+    font-size: 7px;
+    margin: 3px;
+}
+
+.container .header {
+    background-color: rgb(52, 152, 219);
+    height: 20px;
+    margin-bottom: 3px;
+}
+
+.container .body {
+    display: flex;
+    gap: 3px;
+}
+
+.body .sidebar {
+    flex: 1;
+    background-color: rgb(46, 204, 113);
+    height: 100px;
+}
+
+.body .content {
+    flex: 3;
+    background-color: rgb(231, 76, 60);
+    height: 100px;
+}
+
+.container .footer {
+    margin-top: 3px;
+    background-color: rgb(155, 89, 182);
+    height: 20px;
+}
+
+.name {
+    position: relative;
+    top: 5px;
+    left: 5px;
+}

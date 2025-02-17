@@ -1,0 +1,38 @@
+.container {
+    height: 100px;
+    width: 600px;
+}
+
+.bar1 {
+    display: flex;
+}
+
+.item {
+    flex: 1;
+    text-align: center;
+    height: 40px;
+    background-color: rgb(128, 0, 128);
+    border-radius: 5px;
+    color: white;
+    margin: 5px;
+}
+
+.fix {
+    position: relative;
+    top: 10px;
+}
+
+.bar2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item2 {
+    text-align: center;
+    width: 90px;
+    height: 40px;
+    background-color: rgb(128, 0, 128);
+    border-radius: 5px;
+    color: white;
+    margin: 5px;
+}
