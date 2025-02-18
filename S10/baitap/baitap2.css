@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 600px;
+    height: 300px;
+    background-color: rgba(171, 136, 90, 0);
+}
+
+.main .container {
+    display: flex;
+    text-align: center;
+}
+
+.container .item1 {
+    margin-right: 20px;
+    flex: 1;
+}
+
+.item1 .name {
+    height: 60px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgb(235, 238, 243);
+    border: none;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.item1 .img {
+    margin-top: 20px;
+    width: 150px;
+    height: 170px;
+    border-radius: 3px;
+}
+
+.text_font {
+    position: relative;
+    top: 20px;
+    font-weight: bolder;
+    background: linear-gradient(to bottom, rgb(59, 60, 63), rgb(194, 197, 201));
+    background-clip: text;
+    color: transparent;
+    font-family: sans-serif;
+}
+
+.item2 .img {
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 3px;
+}
+
+.item2 .name {
+    height: 76px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgb(235, 238, 243);
+    border: none;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.item3 .img {
+    margin-top: 15px;
+    width: 150px;
+    height: 180px;
+    border-radius: 3px;
+}
+
+.item3 .name {
+    height: 60px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgb(235, 238, 243);
+    border: none;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.item4 .img {
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 3px;
+}
+
+.item4 .name {
+    height: 76px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgb(235, 238, 243);
+    border: none;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.container .item2 {
+    margin-right: 20px;
+    flex: 1;
+}
+
+.container .item3 {
+    margin-right: 20px;
+    flex: 1;
+}
+
+.container .item4 {
+    flex: 1;
+}

@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main .img {
+    width: 700px;
+    height: 300px;
+    position: relative;
+    filter: brightness(60%);
+}
+
+.main .button {
+    width: 65px;
+    height: 25px;
+    font-size: 13px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 3px;
+    background-color: rgba(240, 248, 255, 0);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    top: 20px;
+    left: 40px;
+    opacity: 0.7;
+}
+
+.main .text_bar {
+    width: 420px;
+    height: 150px;
+    background-color: rgba(159, 101, 24, 0);
+    position: relative;
+    bottom: 140px;
+    left: 40px;
+}
+
+.text_bar .address {
+    color: white;
+    opacity: 0.6;
+    font-size: 12px;
+}
+
+.text_bar .name {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+}
+
+.text_bar .title {
+    color: white;
+    opacity: 0.8;
+    font-size: 14px;
+}
+
+.main .select_bar {
+    width: 300px;
+    height: 50px;
+    background-color: rgba(250, 235, 215, 0);
+    position: relative;
+    bottom: 150px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    left: 390px;
+}
+
+
+
+.select_bar .left_bar {
+    flex: 1;
+}
+
+.select_bar .right_bar {
+    flex: 1;
+}
+
+.select_bar .selected {
+    flex: 1;
+}
+
+.selected .ball {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 100%;
+}
+
+.select_bar .select {
+    flex: 1;
+    color: black;
+    opacity: 0.5;
+}
+
+.left_bar .left_button {
+    border: none;
+    background-color: #BAB8B8;
+    color: white;
+    height: 30px;
+    width: 50px;
+}
+
+.right_bar .right_button {
+    border: none;
+    background-color: #262626;
+    color: white;
+    height: 30px;
+    width: 50px;
+}

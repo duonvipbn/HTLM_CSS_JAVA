@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 700px;
+    height: 400px;
+    background-color: #F5E6D0;
+}
+
+.header {
+    height: 60px;
+    background-color: rgba(240, 248, 255, 0);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding-right: 30px;
+}
+
+.header .link {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.body .name {
+    height: 80px;
+    width: 320px;
+    background-color: rgba(0, 255, 255, 0);
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.name .text {
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+    font-family: sans-serif;
+}
+
+.body .title {
+    height: 80px;
+    width: 320px;
+    background-color: rgba(0, 255, 255, 0);
+    position: relative;
+    top: 110px;
+    left: 100px;
+}
+
+.title .text {
+    font-size: 12px;
+    color: black;
+    font-family: sans-serif;
+}
+
+button {
+    height: 35px;
+    width: 145px;
+    background-color: #FF6464;
+    color: white;
+    font-size: 15px;
+    position: relative;
+    top: 110px;
+    left: 100px;
+    border: none;
+}
+
+.body .avatar {
+    height: 130px;
+    width: 130px;
+    border-radius: 100%;
+    position: relative;
+    left: 500px;
+    bottom: 100px;
+    box-shadow: -5px 8px white;
+}
