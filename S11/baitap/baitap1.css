@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    height: 70px;
+    background-color: red;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    margin: 2px;
+}
+.container {
+    display: flex;
+}
+.container .sidebar1 {
+    flex: 1;
+    height: 500px;
+    border-radius: 5px;
+    background-color: green;
+    margin: 2px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+.container .bar{
+    flex: 5;
+    height: 500px;
+    border-radius: 5px;
+    background-color: yellow;
+    margin: 2px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bolder;
+    color: black;
+}
+.container .sidebar2{
+    flex:1;
+    height: 500px;
+    border-radius: 5px;
+    background-color: violet;
+    margin: 2px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+
+.footer {
+    height: 60px;
+    background-color: blue;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    margin: 2px;
+}
+@media screen and (max-width :1024px) {
+    .container {
+        flex-direction: column;
+    }
+}
