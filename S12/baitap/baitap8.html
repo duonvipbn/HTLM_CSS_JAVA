@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./baitap8.css">
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="../bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+</head>
+<body>
+    <div class="main">
+        <h3>Payment</h3>
+        <input type="radio" id="payList" name="payType" checked>
+        <label for="payList" class="form-label">Credit card</label> <br>
+        <input type="radio" id="payList" name="payType">
+        <label for="payList" class="form-label">Debit card</label> <br>
+        <input type="radio" id="payList" name="payType">
+        <label for="payList" class="form-label">PayPal</label> <br>
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-6">
+                <label for="validationCustom01" class="form-label">Name on card</label>
+                <input type="text" class="form-control" id="validationCustom01" value="" required>
+                <span class="opa">Full name as displayed on card</span>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label for="validationCustom02" class="form-label">Credit card number</label>
+                <input type="number" class="form-control" id="validationCustom02" value="" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-3">
+                <label for="validationCustom01" class="form-label">Expiration</label>
+                <input type="text" class="form-control" id="validationCustom01" value="" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-3">
+                <label for="validationCustom02" class="form-label">CVV</label>
+                <input type="number" class="form-control" id="validationCustom02" value="" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <hr>
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit">Continue to checkout</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

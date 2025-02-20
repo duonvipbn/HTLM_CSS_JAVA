@@ -1,0 +1,10 @@
+.main{
+    width: 500px;
+    height: 400px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.opa {
+    opacity: 0.8;
+    font-size: 12px;
+}

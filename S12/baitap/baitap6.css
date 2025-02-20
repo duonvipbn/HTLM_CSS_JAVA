@@ -1,0 +1,23 @@
+h3 {
+    text-align: center;
+}
+
+.space {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.background_color {
+    background-color: #FFC107;
+}
+
+.card-group .card {
+    border: 0px;
+}
+.card-body {
+    border: 1px solid #EBEBEB;
+    border-radius: 5px;
+}
+.btn {
+    width: 90%;
+}

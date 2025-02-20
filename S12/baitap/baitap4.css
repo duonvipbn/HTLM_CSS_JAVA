@@ -1,0 +1,30 @@
+body {
+    background-color: #7F7F7F !important;
+}
+
+.main {
+    height: 390px;
+    width: 600px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.space {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header .name {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.header .out {
+    font-size: 30px;
+}
+
+.text {
+    color: white !important;
+}
