@@ -1,0 +1,8 @@
+1 val, let, const
+2 _, $, string
+3 number, string, boolean
+4 doc code tu tren xuong duoi tu trai sang phai
+5 kiem tra du lieu typeof
+6 ep string sang number
++ Number()
++ dung dau "+"
