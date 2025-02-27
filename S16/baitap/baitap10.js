@@ -1,3 +1,7 @@
+// 5 6
+//     (0.34342435 * (6 - 5 + 1)) + 5
+// 0.3434 * 2 + 5
+
 function getRndInteger(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
