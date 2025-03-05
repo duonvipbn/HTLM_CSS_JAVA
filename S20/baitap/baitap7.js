@@ -1,5 +1,5 @@
 let input = +prompt("Nhập n:");
-if (input && input >= 2) {
+if (input && input > 2) {
     let fib = [1, 1];
 
     for (let i = 2; i < input; i++) {
