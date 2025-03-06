@@ -13,3 +13,4 @@ for (let i = 0; i < height; i++) {
     document.write("<br>");
 }
 document.write("</pre>");
+
