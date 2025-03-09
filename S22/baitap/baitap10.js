@@ -44,3 +44,4 @@ do {
             alert("Lựa chọn sai");
     }
 } while (choice !== 6);
+                    
