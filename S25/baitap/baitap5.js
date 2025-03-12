@@ -1,5 +1,4 @@
 function countInteger(arr) {
-    let count = 0;
     if (Array.isArray(arr)) {
         if (arr.length >= 0) {
             let count = 0;
