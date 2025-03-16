@@ -34,4 +34,5 @@ addItem("apple", 1, 10000);
 addItem("Banana", 5, 7000);
 addItem("Lemon", 20, 50000);
 addItem("apple", 5, 50000);
+addItem("Lemon", 10, 50000);
 createItem();
