@@ -4,6 +4,7 @@ let person = {
     job: "Developer"
 };
 
+  
 console.log(`Name: ${person.name}`);
 console.log(`Age: ${person.age}`);
 console.log(`Job: ${person.job}`);
