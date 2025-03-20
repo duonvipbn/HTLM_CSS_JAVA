@@ -1,0 +1,61 @@
+.container {
+    width: 600px;
+    padding-bottom: 40px;
+    background-color: #F4F4F4;
+    text-align: center;
+    padding-top: 1px;
+
+}
+
+.box {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 12%;
+    margin-right: 12%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.18);
+}
+
+#add {
+    height: 36px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #28A745;
+    width: 50px;
+}
+
+#input {
+    width: 300px;
+    height: 33px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.211);
+}
+
+ul {
+    list-style-type: none;
+}
+li{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.157);
+}
+
+.delButton {
+    border-radius: 5px;
+    border: none;
+    width: 30px;
+    height: 25px;
+    color: #FFFFFF;
+    background-color: red;
+}
+h1 {
+    font-family: verdana;
+    opacity: 0.8;
+    font-size: 28px;
+}

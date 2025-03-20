@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phóng to ảnh khi click</title>
+    <link rel="stylesheet" href="baitap7.css">
+</head>
+
+<body>
+
+    <h2>Click vào ảnh để phóng to</h2>
+    <img src="http://thuthuatphanmem.vn/uploads/2018/09/11/hinh-anh-dep-11_044127919.jpg" alt="Ảnh nhỏ" onclick="openImage(this)">
+
+    <div id="overlay" onclick="closeImage()">
+        <img id="overlay-img">
+    </div>
+
+    <script src="baitap7.js"></script>
+
+</body>
+
+</html>

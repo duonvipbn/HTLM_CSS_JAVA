@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #f8f9fa;
+}
+
+#text {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.increase {
+    background-color: #1cc142;
+}
+
+.decrease {
+    background-color: #bc1c2c;
+}

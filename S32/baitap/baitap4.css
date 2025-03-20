@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    margin: 20px;
+}
+.visible {
+    display: none;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
