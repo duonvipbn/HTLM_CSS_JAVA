@@ -12,12 +12,12 @@ function getWeather() {
                     <div class="item">
                         <h2>${city}</h2>
                         <div class="item_items">
-                            <span class="icon">${cityData.icon}</span>
-                            <span class="deg">${cityData.temperature}&deg;C</span>
+                            <span class="icon">${weatherData[city].icon}</span>
+                            <span class="deg">${weatherData[city].temperature}&deg;C</span>
                             <div class="item_items_title">
-                                <p>${cityData.description}</p>
-                                <p>Độ ẩm: ${cityData.humidity}%</p>
-                                <p>Tốc độ gió: ${cityData.windSpeed} km/h</p>
+                                <p>${weatherData[city].description}</p>
+                                <p>Độ ẩm: ${weatherData[city].humidity}%</p>
+                                <p>Tốc độ gió: ${weatherData[city].windSpeed} km/h</p>
                             </div>
                         </div>
                     </div>

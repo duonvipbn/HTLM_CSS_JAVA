@@ -27,7 +27,7 @@ button {
 }
 .item {
     margin-left: 100px;
-    background-color: white;
+    background-color: rgba(131, 24, 24, 0);
     height: 150px;
     width: 390px;
     text-align: left;
@@ -35,7 +35,7 @@ button {
 .item_items {
     display: flex;
     align-items: center;
-    background-color: #0066CC;
+    background-color: #ffffff00;
 }
 .icon {
     height: 100px;
