@@ -1,0 +1,65 @@
+h1 {
+    text-align: center;
+}
+
+.inputRow {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#add {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#add:hover {
+    background-color: #218838;
+}
+
+thead tr td {
+    width: 150px;
+    height: 30px;
+    background-color: #F2F2F2;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tableList {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+.tableList td,
+.tableList th {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+#pagination {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#pagination button {
+    margin: 5px;
+    padding: 8px 12px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

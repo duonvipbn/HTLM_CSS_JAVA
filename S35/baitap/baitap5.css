@@ -1,0 +1,170 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header span {
+    font-size: 30px;
+}
+
+#header button {
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    color: white;
+    background-color: #4094F7;
+    border-radius: 5px;
+    border: none;
+
+}
+#fontInput {
+    display: flex;
+    justify-content: space-between;
+}
+
+#findNameInput {
+    height: 25px;
+    width: 200px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+select {
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+#findButton {
+    height: 31px;
+    width: 30px;
+    border-radius: 0px 5px 5px 0px;
+    position: relative;
+    right: 5px;
+}
+#fontTable {
+    margin-left: auto;
+    margin-right: auto;
+}
+.td1 {
+    width: 400px;
+    height: 3px;
+}
+.tdHeader {
+    background-color: #F9FAFB;
+}
+.td2 {
+    width: 600px;
+
+}
+.td3 {
+    width: 250px;
+}
+.td4 {
+    width: 250px;
+
+}
+.trashButton {
+    border: none;
+    background: none;
+    color: red;
+}
+.penButton {
+    border: none;
+    background: none;
+    color: yellow;
+}
+.hide {
+    display: none;
+}
+#addGui {
+    position: fixed;
+    height: 450px;
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    z-index: 3;
+}
+#addGuiHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+#addGuiHeader span {
+    margin-left: 5%;
+    font-size: 20px;
+}
+#addGuiHeader button {
+    font-size: 20px;
+    background: none;
+    border: none;
+    margin-right: 5%;
+}
+.modalBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+.line {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#addGui p {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#addGui .input {
+    margin-left: 5%;
+    width: 90%;
+    height: 8%;
+    margin-right: 5%;
+    border-radius: 5px;
+}
+.inputSpace {
+    margin-left: 5%;
+}
+#listAddButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#listAddButton {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#addButton {
+    background-color: #007AFF;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    height: 30px;
+    width: 60px;
+}
+#declineButton {
+    background-color: white;
+    border: 1px solid black;
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+}
+.red {
+    color: red;
+}
+.statusOff {
+    color: red;
+    background-color: #DC8A8A;
+    border-radius: 5px;
+}
+.statusOn {
+    color: green;
+    background-color: #ECFDF3;
+    border-radius: 5px;
+}

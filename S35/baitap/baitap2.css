@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #322346;
+}
+
+.header {
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    height: 70px;
+    background-color: #191223;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+}
+#list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(250, 235, 215, 0);
+}
+.item {
+    width: 290px;
+    height: 70px;
+    background-color: #191223d7;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    background-color: rgba(250, 235, 215, 0);
+    height: 20px;
+    width: 20px;
+}
+span {
+    color: white;
+    font-size: 18px;
+}
+.delete {
+    color: white;
+    background: none;
+    font-size: 20px;
+    position: relative;
+    border: none;
+    bottom: 20px;
+    left: 10px;
+}
+
+#addBookmark {
+    position: fixed;
+    height: 200px;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 9999e9;
+    
+}
+.hide {
+    display: none;
+}
+#addBookmarkHeader {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7C59B0;
+}
+#bookmarkHeader {
+    padding-left: 10px;
+}
+
+#bookmarkClose {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    padding-right: 10px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+
+}
+
+input {
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid #7C59B0;
+    border-radius: 5px;
+    margin-bottom: 2%;
+}
+
+#addBookmarkGui {
+    margin-top: 20px;
+}
+#addBookmarkGui p {
+    color: #7C59B0;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+#saveButton {
+    margin-left: 5%;
+    margin-top: 1%;
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    background-color: #7C59B0;
+    color: white;
+}

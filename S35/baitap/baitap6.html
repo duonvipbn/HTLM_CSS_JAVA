@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="baitap6.css">
+</head>
+<body>
+    <div id="opacityBackground" class=""></div>
+    <div id="header">
+        <span>Danh muc</span>
+        <button onclick="showAddGui()">Them moi danh muc</button>
+    </div>
+    <div id="fontInput">
+        <div></div>
+        <div>
+            <select name="" id="Status">
+                <option value="Tat ca">chon</option>
+                <option value="Dang hoat dong">Dang hoat dong</option>
+                <option value="Ngung hoat dong">Ngung hoat dong</option>
+            </select>
+            <input type="text" placeholder="Tim kiem danh muc theo ten" id="findNameInput">
+            <button id="findButton"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+    </div>
+    <table id="fontTable"  cellspacing="0" cellpadding="9">
+        <!-- them item o dayyyyyyyyyyyyyy -->
+    </table>
+    <div id="addGui">
+        <div id="addGuiHeader">
+            <span>Them moi danh muc</span>
+            <button onclick="showAddGui()">x</button>
+        </div>
+        <p>Ma danh muc</p>
+        <input type="text" class="input" id="inputID">
+        <p id="errorIDAlert" class="red hide">Ma danh muc khong duoc de trong</p>
+        <p>Ten danh muc</p>
+        <input type="text" class="input" id="inputName">
+        <p id="errorNameAlert" class="red hide">Ten danh muc khong duoc de trong</p>
+        <p>trang thai</p>
+        <input type="radio" name="status" value="Dang hoat dong" class="inputSpace" checked> Dang hoat dong
+        <input type="radio" value="Ngung hoat dong" name="status" > Ngung hoat dong
+        <hr class="line">
+        <div id="listAddButton">
+            <div></div>
+            <div>
+                <button id="declineButton">Huy</button>
+                <button id="addButton" onclick="addItem()">Them</button>
+            </div>
+        </div>
+    </div>
+    <script src="baitap6.js"></script>
+</body>
+</html>
