@@ -7,8 +7,12 @@ function getData() {
 function showAddGui() {
     document.getElementById("addGui").classList.toggle("hide");
 }
+document.getElementById("Status").addEventListener("change", function () {
+    render();
+});
 
 function render() {
+    let selectedStatus = document.getElementById("Status").value;
     let message = `
         <tr>
             <td class="td1 tdHeader">Ma danh muc <i class="fa-solid fa-arrow-down"></i></td>
@@ -17,23 +21,29 @@ function render() {
             <td class="td4 tdHeader">Chuc nang</td>
         </tr>
     `;
-    let list = getData();
-    for (let i = 0; i < list.length; i++){
-        let statusMess = "";
-        if (list[i].status === "Dang hoat dong") {
-            statusMess = `<td class="td3"><mark class="statusOn">&bull; ${list[i].status}</mark></td>`;
-        } else {
-            statusMess = `<td class="td3"><mark class="statusOff">&bull; ${list[i].status}</mark></td>`;
-        }
+
+    let list = getData(); 
+
+    let filteredList = list.filter(item => selectedStatus === "Tat ca" || item.status === selectedStatus);
+
+    for (let i = 0; i < filteredList.length; i++) {
+        let statusMess = filteredList[i].status === "Dang hoat dong" ?
+            `<td class="td3"><mark class="statusOn">&bull; ${filteredList[i].status}</mark></td>` :
+            `<td class="td3"><mark class="statusOff">&bull; ${filteredList[i].status}</mark></td>`;
+
         message += `
             <tr>
-                <td class="td1">${list[i].id}</td>
-                <td class="td2">${list[i].name}</td>
+                <td class="td1">${filteredList[i].id}</td>
+                <td class="td2">${filteredList[i].name}</td>
                 ${statusMess}
-                <td class="td4"><button class="trashButton"><i class="fa-solid fa-trash"></i></button> <button class="penButton"><i class="fa-solid fa-pen"></i></button></td>
+                <td class="td4">
+                    <button class="trashButton"><i class="fa-solid fa-trash"></i></button>
+                    <button class="penButton"><i class="fa-solid fa-pen"></i></button>
+                </td>
             </tr>
         `;
     }
+
     document.getElementById("fontTable").innerHTML = message;
 }
 function addItem() {
