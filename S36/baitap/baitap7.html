@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ Thống Đăng Nhập</title>
+    <link rel="stylesheet" href="baitap7.css">
+</head>
+
+<body>
+    <div class="signGui" id="loginForm">
+        <h2 id="name">Đăng ký</h2>
+        <input type="text" placeholder="Tên đăng nhập" id="inputName"> <br>
+        <input type="password" placeholder="Mật khẩu" id="inputPassword"> <br>
+        <div id="remenberContainer">
+            <input type="checkbox" id="remenberBox">
+            <span id="remenberBoxComment">Ghi nhớ tôi</span>
+        </div>
+        <button id="registerButton" onclick="acountMain()">Đăng ký</button><br>
+        <button id="aTag" onclick="changeMode()">Quay lại đăng nhập</button>
+    </div>
+
+    <div class="signGui hidden" id="home">
+        <h2>Xin chào, <span id="username"></span>!</h2>
+        <p>Chào mừng bạn đến với hệ thống mini!</p>
+        <button onclick="logout()">Đăng xuất</button>
+    </div>
+
+    <script src="baitap7.js"></script>
+</body>
+
+</html>

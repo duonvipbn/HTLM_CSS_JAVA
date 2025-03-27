@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="baitap5.css">
+</head>
+<body>
+    <h2>Quan ly cong viec (Task Board)</h2>
+    <div class="inputBar">
+        <input type="text" placeholder="Nhap ten cong viec..." id="inputItem">
+        <button onclick="addItem()">Them</button>
+    </div>
+    <div class="container">
+        <div class="box">
+            <h3>Cho xu ly</h3>
+            <div class="boxEffect" id="pending">
+            </div>
+        </div>
+        <div class="box">
+        <h3>Dang lam</h3>
+            <div class="boxEffect" id="working">
+            </div>
+        </div>
+        <div class="box">
+            <h3>Hoan thanh</h3>
+            <div class="boxEffect" id="done">
+            </div>
+        </div>
+    </div>
+    <script src="baitap5.js"></script>
+</body>
+</html>

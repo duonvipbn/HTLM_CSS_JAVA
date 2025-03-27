@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(246, 246, 246);
+}
+h2 {
+    text-align: center;
+}
+
+.inputBar {
+    text-align: center;
+}
+.inputBar input {
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.081);
+    margin-right: 10px;
+}
+
+.inputBar button {
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    height: 34px;
+    width: 60px;
+    border-radius: 5px;
+}
+.container {
+    display: flex;
+    width: 800px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box {
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    margin-right: 20px;
+    width: 220px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+h3 {
+    padding-bottom: 10px;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.105); 
+}
+.boxEffect {
+    text-align: left;
+    background-color: #F9F9F9;
+    width: 100%;
+    border-radius: 5px;
+}
+.boxEffect button {
+    border-radius: 5px;
+    border: none;
+    background-color: #28A745;
+    color: white;
+    padding: 6px;
+}

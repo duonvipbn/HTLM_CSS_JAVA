@@ -1,0 +1,80 @@
+.header {
+    display: flex;
+    width: 515px;
+    background-color: rgba(250, 235, 215, 0);
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inputBox {
+    border: 1px solid rgba(0, 0, 0, 0.084);
+    padding: 6px;
+}
+h1 {
+    text-align: center;
+}
+#addEmployee {
+    height: 25px;
+    width: 110px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tableHeader {
+    display: flex;
+    width: 480px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.tableSTT {
+    width: 50px;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.084);
+    background-color: #F2F2F2;
+    font-weight: bold;
+}
+.tableName {
+    width: 200px;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.084);
+    background-color: #F2F2F2;
+    font-weight: bold;
+}
+.tableJob {
+    width: 230px;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.084);
+    background-color: #F2F2F2;
+    font-weight: bold;
+}
+#list {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center
+}
+.tableNormal {
+    border: 1px solid rgba(0, 0, 0, 0.084);
+}
+#pagination {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.paginationButton {
+    border: 1px solid #007BFF;
+    background-color: #ffffff;
+    color: #007BFF;
+    height: 22px;
+    margin-right: 10px;
+}
+
+.paginationButton:disabled {
+    background-color: #ccc;
+
+}
